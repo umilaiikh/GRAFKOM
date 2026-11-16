@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Tongkonan 3D - Three.js</title>
+<link rel="stylesheet" href="style.css">
+<script type="importmap">
+{
+  "imports": {
+    "three": "https://cdn.jsdelivr.net/npm/three@0.160.0/build/three.module.js",
+    "three/addons/": "https://cdn.jsdelivr.net/npm/three@0.160.0/examples/jsm/"
+  }
+}
+</script>
+</head>
+<body>
+<canvas id="c"></canvas>
+<div class="ui">
+  <div class="card"><b>Rumah Adat Tongkonan</b><br>Seret untuk memutar, scroll/cubit untuk zoom</div>
+  <div>
+    <button id="rot">Putar otomatis</button>
+    <button id="clr">Warna atap</button>
+    <button id="rst">Reset</button>
+  </div>
+</div>
+<script type="module" src="main.js"></script>
+</body>
+</html>
